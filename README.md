@@ -7,14 +7,21 @@ Also it calculates number of CPU Cycles taken to encipher this data
 ./DES.exe encrypt data key
 
 ## Example:
-   .\DES.exe encrypt 7A6C731D22347676 1323445A6D788381
+.\DES.exe encrypt 7A6C731D22347676 1323445A6D788381
+
 output:
-    cipher: 7DB033DD14D6F975
-    Cycles: 11130
+
+      cipher: 7DB033DD14D6F975
+
+      Cycles: 11130
     
-   .\DES.exe decrypt 7DB033DD14D6F975 1323445A6D788381
+
+.\DES.exe decrypt 7DB033DD14D6F975 1323445A6D788381
+
 output:
-    plain: 7A6C731D22347676
-    Cycles: 9630
+
+      plain: 7A6C731D22347676
+
+      Cycles: 9630
     
     
